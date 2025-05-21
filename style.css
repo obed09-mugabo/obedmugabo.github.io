@@ -1,0 +1,116 @@
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  color: white;
+}
+
+header {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+  color: #ffd700;
+}
+
+nav a {
+  margin: 0 15px;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #00ffff;
+}
+
+main {
+  max-width: 1000px;
+  margin: 30px auto;
+  padding: 10px;
+}
+
+.fake-seach-bar {
+   display: flex;
+   justify-content: center;
+   padding: 20px;
+   background-color: #f0f0f0;
+}
+
+.seach-bar input {
+   padding: 10px;
+   width: 250px;
+   border: 1px solid #ccc;
+   border-radius: 5px 0 0 5px;
+   background-color: #eaeaea;
+   color: #999;
+}
+
+.seach-bar button {
+   padding: 10px;
+   background-color: #cccccc;
+   color: white; 
+   border: none;
+   border-radius: 0 5px 5px 0; 
+   cursor: pointer; 
+}
+
+.card {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+  transition: transform 0.3s;
+}
+
+.grid-passions {
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minimax 200px, 1fr);
+   gap: 20px;
+   padding: 40px;
+}
+ 
+.card:hover {
+  transform: scale(1.02);
+}
+
+h2 {
+  color: #00ffff;
+}
+
+ul {
+  list-style: circle;
+  padding-left: 20px;
+}
+
+img {
+  max-width: 200px;
+  border-radius: 12px;
+  margin-top: 10px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.3);
+  font-size: 14px;
+}
+
+body {
+  background-color: white;
+  color: white;
+  transition: 0.3s;
+}
+
+body.dark-mode {
+  background-color: #121212;
+  color: white;
+}
+ 
